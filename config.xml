@@ -5,7 +5,12 @@
     <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
         Apache Cordova Team
     </author>
-    <content src="index.html" />
+    <content src="mobile.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <platform name="ios">
+        <icon src="res/icon/ios/app.png" platform="ios" width="57" height="57" />
+    </platform>
 </widget>
+
+

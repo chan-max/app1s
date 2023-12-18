@@ -18,6 +18,12 @@
   "cordova": {
     "platforms": [
       "ios"
-    ]
+    ],
+    "plugins": {
+      "cordova-plugin-splashscreen": {}
+    }
+  },
+  "devDependencies": {
+    "cordova-plugin-splashscreen": "^6.0.2"
   }
 }
